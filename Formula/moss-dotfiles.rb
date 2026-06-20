@@ -21,6 +21,7 @@ class MossDotfiles < Formula
 
   head "https://github.com/advicktory/.dotfiles.git", branch: "main"
 
+  depends_on "coreutils"
   depends_on "neovim"
   depends_on "ripgrep"
   depends_on "fzf"

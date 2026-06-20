@@ -27,6 +27,10 @@ class MossDotfiles < Formula
   depends_on "fd"
   depends_on "node"
   depends_on "git"
+  depends_on "tree-sitter"
+  depends_on "powerlevel10k"
+  depends_on "zsh-autosuggestions"
+  depends_on "zsh-syntax-highlighting"
 
   def install
     # Parent install.sh clones each sub-repo and runs its installer
